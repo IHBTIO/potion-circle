@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "potionhalo",
+  "version": "${version}",
+  "name": "Potion Halo",
+  "description": "Displays potion effects as a halo above entities",
+  "authors": [],
+  "contact": {},
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.potionhalo.client.PotionHaloClient"
+    ]
+  },
+  "mixins": [
+    "potionhalo.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.9",
+    "minecraft": "~1.21",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
